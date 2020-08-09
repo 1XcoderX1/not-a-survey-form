@@ -1,0 +1,106 @@
+<div class="container">
+  <header>
+    <h1 id="title" class="text-center"> Not a survey form       </h1>
+    <p id="description" class="description text-center">            This form teaches you how to not fill anonymous forms        on the internet</p>
+  </header>
+    <form id="survey-form">
+      <div class="form-entry">
+        <label id="name-label" for="name">Name</label>
+        <input 
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name (But you shouldn't)"
+              required />  
+      </div>
+      <div class="form-entry">
+        <label id="email-label" for="email">Email</label>
+        <input 
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your email (But you shouldn't)"
+              required />  
+      </div>
+      <div class="form-entry">
+        <label id="age-label" for="age">Age</label>
+        <input 
+              type="number"
+              name="age"
+              id="age"
+              min="10"
+              max="99"
+              class="form-control"
+              placeholder="How old are you? (Please do not tell your age to strangers)"
+              required />  
+      </div>
+      <div class="form-entry">
+        <label id="number-label" for="number">Phone Number</label>
+        <input 
+              type="number"
+              name="phnum"
+              id="number"
+              min="0000000000"
+              max="9999999999"
+              class="form-control"
+              placeholder="Enter your Phone Number (Ready to receive random texts?)"
+              required />  
+      </div>
+      <div class="form-entry">
+        <label id="nation-label" for="nation">Nationality</label>
+        <input 
+              type="text"
+              name="nation"
+              id="nation"
+              class="form-control"
+              placeholder="Enter your nationality (Racial profiling?)"
+              required />  
+      </div>
+      <p> Let us make sure that you learned exactly what not to do. Please answer these questions: </p>
+      <div class="form-entry">
+        <p> Are you going to answer random surveys on the internet?</p>
+        <select id="dropdown" name="learn1" class="form-control">
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+          <option value="maybe">Maybe</option>
+        </select>
+      </div>
+      <div class="form-entry">
+        <p>Are you gonna share these awesome instructions with your friend(s)?</p>
+        <label> 
+          <input type="radio" name="learn2" value="Yes" class="input-radio" />Yes</label>
+        <label> 
+          <input type="radio" name="learn2" value="No" class="input-radio">No</label>
+        <label> 
+          <input type="radio" name="learn2" value="Maybe" class="input-radio">Maybe</label>
+      </div>
+      <div class="form-entry">
+        <p> If you would have to describe this form in one word, how would you describe it? </p>
+        <label>
+          <input type="checkbox" name="learn3" value="cool"  class="input-checkbox"/>Cool
+        </label>
+        <label>
+          <input type="checkbox" name="learn3" value="witty"  class="input-checkbox"/>Witty
+        </label>
+        <label>
+          <input type="checkbox" name="learn3" value="meh"  class="input-checkbox"/>Meh
+        </label>
+      </div>
+      <div class="form-entry">
+        <p>Any comments to improve this form?</p>
+        <textarea 
+              id="comments"
+              name="commments"
+              class="form-control input-comments"
+              placeholder="Please let us know what do you think about us 
+(We swear we will consider it. Seriously, we will.)"></textarea>  
+      </div>
+      <div class="form-entry">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+      </form>
+  </div>
+ </>
+    
